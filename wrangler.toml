@@ -5,7 +5,7 @@ compatibility_date = "2026-09-01"
 [vars]
 # 公開するなら、自分のページのオリジンに絞る (例: "https://example.pages.dev")
 # file:// で開いて使う場合は "null" を含める。空欄なら全オリジン許可
-ALLOWED_ORIGINS = "https://ai-zinrou.ryopc.org"
+ALLOWED_ORIGINS = "https://ai-zinrou.ryopc.org,https://ryotagtagtag-wq.github.io/"
 ALLOWED_MODELS = "gemini-3.5-flash-lite"
 
 # 任意: IPごとのレート制限 (Cloudflareの拠点ごとの概算)
